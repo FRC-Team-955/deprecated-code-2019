@@ -1,0 +1,6 @@
+See file:///home/craptop/frc/robot_code_2019/build/tmp/compileFrcUserProgramExecutableFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramExecutableFrcUserProgramCpp.
+compiling drivebase.cpp successful.
+
+compiling Robot.cpp successful.
+
+Finished compileFrcUserProgramExecutableFrcUserProgramCpp, see full log file:///home/craptop/frc/robot_code_2019/build/tmp/compileFrcUserProgramExecutableFrcUserProgramCpp/output.txt.
