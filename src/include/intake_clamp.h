@@ -1,5 +1,5 @@
-#ifndef DRIVEBASE_H
-#define DRIVEBASE_H
+#ifndef INTAKE_CLAMP_H
+#define INTAKE_CLAMP_H
 
 #include "WPILib.h"
 #include <ctre/Phoenix.h>
