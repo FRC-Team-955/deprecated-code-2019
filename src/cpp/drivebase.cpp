@@ -1,13 +1,14 @@
 #include <drivebase.h>
 
 
+// run this in TeleopPeriodic
 void Drivebase :: update () {
 
 	std::cout<<"updating drivebase";
 
 	// collect values from joystick
-	float move = joy->GetRawAxis( joynum_drivebase_move );
-	float turn = joy->GetRawAxis( joynum_drivebase_turn );
+	float move = joy->GetRawAxis( drivebase_move_joynum );
+	float turn = joy->GetRawAxis( drivebase_turn_joynum );
 
 	std::cout<<"\tmove = "<<move<<"\tturn = "<<turn;
 
@@ -16,6 +17,10 @@ void Drivebase :: update () {
 	turn = signedpow(turn,drivebase_turn_exp);
 
 	std::cout<<"\tskewed move = "<<move<<"\tskewed turn = "<<turn;
+
+	// scale the values based on the max allowed speed
+	move *= drivebase_max_speed;
+	turn *= drivebase_max_speed;
 
 	// write to motors
 	talon_left_enc->Set(ControlMode::PercentOutput,  move-turn);

@@ -7,5 +7,27 @@
 #include <constants.h>
 
 
+class Intake_clamp {
+public:
+	// initialize intake_clamp
+	Intake_clamp (
+		// receive parameters
+		Joystick *joy,
+		TalonSRX *talon_clamp
+	):
+		// initialize member variables
+		joy(joy),
+		talon_clamp(talon_clamp)
+	{
+		// run on initialization
+		std::cout<<"initializing intake_clamp";
+	};
+
+	// run this in TeleopPeriodic
+	void update();
+private:
+	Joystick *joy;
+	TalonSRX *talon_clamp;
+};
 
 #endif
