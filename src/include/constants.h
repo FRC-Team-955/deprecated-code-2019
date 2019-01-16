@@ -19,24 +19,40 @@ const int elevator_enc_talonnum = 7;
 const int elevator_noenc_talonnum = 8;
 
 
-/*    A2           A3				0=
-   _/III\4_______/III\5				1=	
-  /  A1             3  \			2=
- /  (8)A0  6 H 7  2   1 \<-trg		3=	
- \       ^          0   /<-top	  4,5=	 
- /     <POV>    A5      \			6=
+/*			Joystick #0
+	  A2           A3			  0,1=	out/in climber
+   _/III\4_______/III\5				2=	
+  /  A1             3  \			3=	
+ /  (8)A0  6 H 7  2   1 \<-trg		4=	
+ \       ^          0   /<-top		5=	
+ /     <POV>    A5      \			6=	
 /        v     (9)A4     \			7=	
-\      ____________      /		A1,A4=	
- \____/            \____/		A2,A3=	
+\      ____________      /		A1,A4=	drive
+ \____/            \____/
 */
-// joystick axis numbers
+// joystick 0 axis numbers
 const int drivebase_move_joynum = 1;
 const int drivebase_turn_joynum = 4;
+//joystick 0 button numbers
+
+
+/*			Joystick #1
+	  A2           A3			  0,1=	suck out/in intake_wheels
+   _/III\4_______/III\5				2=	
+  /  A1             3  \			3=	
+ /  (8)A0  6 H 7  2   1 \<-trg		4=	
+ \       ^          0   /<-top		5=	
+ /     <POV>    A5      \		   A1=	up/down intake_pivot
+/        v     (9)A4     \		A2,A3=	elevator
+\      ____________      /		   A5=	close/open intake_clamp
+ \____/            \____/
+*/
+// joystick 1 axis numbers
 const int elevator_up_joynum = 2;
 const int elevator_down_joynum = 3;
-// joystick button numbers
-const int intake_wheels_in_joynum = 1;
-const int intake_wheels_out_joynum = 2;
+// joystick 1 button numbers
+const int intake_wheels_in_joynum = 4;
+const int intake_wheels_out_joynum = 5;
 const int intake_clamp_close_joynum = 3;
 const int intake_clamp_open_joynum = 4;
 

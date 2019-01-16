@@ -7,8 +7,8 @@ void Drivebase :: update () {
 	std::cout<<"updating drivebase";
 
 	// collect values from joystick
-	float move = joy->GetRawAxis( drivebase_move_joynum );
-	float turn = joy->GetRawAxis( drivebase_turn_joynum );
+	float move = joy0->GetRawAxis( drivebase_move_joynum );
+	float turn = joy0->GetRawAxis( drivebase_turn_joynum );
 
 	std::cout<<"\tmove = "<<move<<"\tturn = "<<turn;
 

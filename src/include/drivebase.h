@@ -12,14 +12,14 @@ public:
 	// initialize drivebase
 	Drivebase(
 		// receive parameters
-		Joystick *joy,
+		Joystick *joy0,
 		TalonSRX *talon_left_enc,
 		TalonSRX *talon_left_noenc,
 		TalonSRX *talon_right_enc,
 		TalonSRX *talon_right_noenc
 	):
 		// initialize members with given parameters
-		joy(joy),
+		joy0(joy0),
 		talon_left_enc(talon_left_enc),
 		talon_left_noenc(talon_left_noenc),
 		talon_right_enc(talon_right_enc),
@@ -38,9 +38,9 @@ public:
 	//run this in TeleopPeriodic
 	void update();
 private:
+	Joystick *joy0;
 	TalonSRX *talon_left_enc, *talon_left_noenc;
 	TalonSRX *talon_right_enc, *talon_right_noenc;
-	Joystick *joy;
 };
 
 #endif

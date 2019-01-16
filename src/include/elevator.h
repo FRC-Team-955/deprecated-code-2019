@@ -12,12 +12,12 @@ public:
 	// initialize elevator
 	Elevator(
 		// receive parameters
-		Joystick *joy,
+		Joystick *joy1,
 		TalonSRX *talon_enc,
 		TalonSRX *talon_noenc
 	):
 		// initialize member variables
-		joy(joy),
+		joy1(joy1),
 		talon_enc(talon_enc),
 		talon_noenc(talon_noenc)
 	{
@@ -30,7 +30,7 @@ public:
 	// run this in TeleopPeriodic
 	void update();
 private:
-	Joystick *joy;
+	Joystick *joy1;
 	TalonSRX *talon_enc, *talon_noenc;
 };
 

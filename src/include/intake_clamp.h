@@ -12,11 +12,11 @@ public:
 	// initialize intake_clamp
 	Intake_clamp (
 		// receive parameters
-		Joystick *joy,
+		Joystick *joy1,
 		TalonSRX *talon_clamp
 	):
 		// initialize member variables
-		joy(joy),
+		joy1(joy1),
 		talon_clamp(talon_clamp)
 	{
 		// run on initialization
@@ -26,7 +26,7 @@ public:
 	// run this in TeleopPeriodic
 	void update();
 private:
-	Joystick *joy;
+	Joystick *joy1;
 	TalonSRX *talon_clamp;
 };
 

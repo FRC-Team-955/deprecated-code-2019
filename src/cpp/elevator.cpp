@@ -7,8 +7,8 @@ void Elevator :: update () {
 	std::cout<<"updating elevator";
 
 	// collect values from joystick
-	float upspeed = joy->GetRawAxis( elevator_up_joynum );
-	float downspeed = joy->GetRawAxis( elevator_down_joynum );
+	float upspeed = joy1->GetRawAxis( elevator_up_joynum );
+	float downspeed = joy1->GetRawAxis( elevator_down_joynum );
 
 	std::cout<<"\tup throttle="<<upspeed;
 	std::cout<<"\tdown throttle="<<downspeed;

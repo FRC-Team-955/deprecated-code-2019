@@ -7,8 +7,8 @@ void Intake_wheels :: update () {
 	std::cout<<"updating intake_wheels";
 
 	// collect values from joystick
-	bool inButton = joy->GetRawAxis( intake_wheels_in_joynum );
-	bool outButton = joy->GetRawAxis( intake_wheels_out_joynum );
+	bool inButton = joy1->GetRawAxis( intake_wheels_in_joynum );
+	bool outButton = joy1->GetRawAxis( intake_wheels_out_joynum );
 
 	std::cout<<"\tin-"<<inButton<<"  out-"<<outButton;
 

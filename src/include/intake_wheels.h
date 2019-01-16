@@ -12,12 +12,12 @@ public:
 	// initialize intake_wheels
 	Intake_wheels(
 		// receive parameters
-		Joystick *joy,
+		Joystick *joy1,
 		TalonSRX *talon_left,
 		TalonSRX *talon_right
 	):
 		// initialize member variables
-		joy(joy),
+		joy1(joy1),
 		talon_left(talon_left),
 		talon_right(talon_right)
 	{
@@ -28,7 +28,7 @@ public:
 	// run this in TeleopPeriodic
 	void update();
 private:
-	Joystick *joy;
+	Joystick *joy1;
 	TalonSRX *talon_left, *talon_right;
 };
 

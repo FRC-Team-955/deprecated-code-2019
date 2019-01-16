@@ -1,3 +1,6 @@
 **/.*.sw?
 gogit
 **/*.[oa]
+.gradle
+build/exe/frcUserProgram/frcUserProgram
+build/tmp/compileFrcUserProgramExecutableFrcUserProgramCpp/options.txt build/tmp/compileFrcUserProgramExecutableFrcUserProgramCpp/output.txt
