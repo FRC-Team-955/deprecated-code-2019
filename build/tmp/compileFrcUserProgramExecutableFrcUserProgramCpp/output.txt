@@ -1,0 +1,20 @@
+See file:///home/robotics/2018-2019%20FRC%20RobotCode/CompBot%20Code/build/tmp/compileFrcUserProgramExecutableFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramExecutableFrcUserProgramCpp.
+compiling elevator.cpp successful.
+
+compiling intake_clamp.cpp successful.
+
+compiling drivebase.cpp successful.
+
+compiling PID.cpp successful.
+
+compiling Robot.cpp successful.
+
+compiling intake.cpp successful.
+
+compiling intake_pivot.cpp successful.
+
+compiling climber.cpp successful.
+
+compiling intake_wheels.cpp successful.
+
+Finished compileFrcUserProgramExecutableFrcUserProgramCpp, see full log file:///home/robotics/2018-2019%20FRC%20RobotCode/CompBot%20Code/build/tmp/compileFrcUserProgramExecutableFrcUserProgramCpp/output.txt.
