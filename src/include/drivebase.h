@@ -41,6 +41,7 @@ private:
 	Joystick *joy0;
 	TalonSRX *talon_left_enc, *talon_left_noenc;
 	TalonSRX *talon_right_enc, *talon_right_noenc;
+	float move=0.0, turn=0.0;
 };
 
 #endif

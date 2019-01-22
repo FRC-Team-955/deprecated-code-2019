@@ -30,6 +30,8 @@ public:
 private:
 	Joystick *joy1;
 	TalonSRX *talon_left, *talon_right;
+	bool inButton=false, outButton=false;
+	float suckSpeed=intake_wheels_speed;
 };
 
 #endif

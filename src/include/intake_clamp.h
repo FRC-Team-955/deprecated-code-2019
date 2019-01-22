@@ -28,6 +28,8 @@ public:
 private:
 	Joystick *joy1;
 	TalonSRX *talon_clamp;
+	bool closeButton=false, openButton=false;
+	float clampSpeed = intake_clamp_speed;
 };
 
 #endif
