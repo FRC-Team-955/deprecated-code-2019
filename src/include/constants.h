@@ -12,9 +12,9 @@ const int drivebase_left_enc_talonnum = 0;
 const int drivebase_left_noenc_talonnum = 1;
 const int drivebase_right_enc_talonnum = 2;
 const int drivebase_right_noenc_talonnum = 3;
-const int intake_wheels_left_talonnum = 4;
-const int intake_wheels_right_talonnum = 5;
-const int intake_clamp_talonnum = 6;
+const int intake_wheels_left_talonnum = 3;
+const int intake_wheels_right_talonnum = 2;
+const int intake_clamp_talonnum = 3;
 const int elevator_enc_talonnum = 7;
 const int elevator_noenc_talonnum = 8;
 
@@ -37,22 +37,22 @@ const int drivebase_turn_joynum = 4;
 
 
 /*			Joystick #1
-	  A2           A3			  0,1=	suck out/in intake_wheels
-   _/III\4_______/III\5				2=	
-  /  A1             3  \			3=	
- /  (8)A0  6 H 7  2   1 \<-trg		4=	
- \       ^          0   /<-top		5=	
- /     <POV>    A5      \		   A1=	up/down intake_pivot
-/        v     (9)A4     \		A2,A3=	elevator
-\      ____________      /		   A5=	close/open intake_clamp
+	  A2           A3			  1,2=	up/down tick elevator
+   _/III\5_______/III\6				3=	intake lvl toggle
+  /  A1             4  \			4=	hatch sequence
+ /  (9)A0  7 H 8  3   2 \<-trg	  5,6=	intake out/in
+ \       ^          1   /<-top		7=	
+ /     <POV>    A5      \		   A1=	
+/        v     (0)A4     \		A2,A3=	
+\      ____________      /		   A5=	
  \____/            \____/
 */
 // joystick 1 axis numbers
 const int elevator_up_joynum = 2;
 const int elevator_down_joynum = 3;
 // joystick 1 button numbers
-const int intake_wheels_in_joynum = 4;
-const int intake_wheels_out_joynum = 5;
+const int intake_wheels_in_joynum = 5;
+const int intake_wheels_out_joynum = 6;
 const int intake_clamp_close_joynum = 3;
 const int intake_clamp_open_joynum = 4;
 
@@ -60,7 +60,7 @@ const int intake_clamp_open_joynum = 4;
 // wheel velocities
 const float drivebase_max_speed = 0.8;
 const float intake_wheels_speed = 0.4;
-const float intake_clamp_speed  = 0.2;
+const float intake_clamp_speed  = 0.4;
 
 
 // exponents for variable motion values- this way, most of the joystick's range will correspond to low values, and only the extremes will make high speeds
