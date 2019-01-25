@@ -239,6 +239,7 @@
 /home/craptop/frc/robot_code_2019/src/include/PID.h
 /home/craptop/frc/robot_code_2019/src/include/climber.h
 /home/craptop/frc/robot_code_2019/src/include/constants.h
+/home/craptop/frc/robot_code_2019/src/include/diagnostic.h
 /home/craptop/frc/robot_code_2019/src/include/drivebase.h
 /home/craptop/frc/robot_code_2019/src/include/elevator.h
 /home/craptop/frc/robot_code_2019/src/include/intake.h

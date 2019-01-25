@@ -9,4 +9,6 @@
 
 class Diagnostic {
 public:
-}
+};
+
+#endif
