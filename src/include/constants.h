@@ -16,8 +16,10 @@ const int intake_wheels_left_talonnum = 3;
 const int intake_wheels_right_talonnum = 2;
 const int intake_wheels_talonnum = 2;
 const int intake_clamp_talonnum = 3;
+const int intake_pivot_talonnum = 3;
 const int elevator_enc_talonnum  = 7;
 const int elevator_noenc_talonnum = 8;
+const int climber_wheels_talonnum = 8;
 
 
 /*			Joystick #0

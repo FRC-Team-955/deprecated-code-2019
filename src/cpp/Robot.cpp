@@ -19,10 +19,9 @@ class Robot: public IterativeRobot{
 
 	//Talons
 	TalonSRX *talon_drivebase_left_enc, *talon_drivebase_right_enc, *talon_drivebase_left_noenc, *talon_drivebase_right_noenc,
-		*talon_intake_wheels,
-		*talon_intake_clamp,
-		*talon_elevator_enc,
-		*talon_elevator_noenc;
+		*talon_intake_wheels, *talon_intake_clamp, *talon_intake_pivot,
+		*talon_elevator_enc, *talon_elevator_noenc,
+		*talon_climber_wheels;
 
 	//Objects
 	Drivebase *db;
@@ -43,11 +42,13 @@ class Robot: public IterativeRobot{
 		talon_drivebase_right_noenc=new TalonSRX( drivebase_right_noenc_talonnum );
 
 		talon_intake_wheels=new TalonSRX( intake_wheels_talonnum );
-
 		talon_intake_clamp=new TalonSRX( intake_clamp_talonnum );
+		talon_intake_pivot=new TalonSRX( intake_pivot_talonnum );
 
 		talon_elevator_enc=new TalonSRX( elevator_enc_talonnum );
 		talon_elevator_noenc=new TalonSRX( elevator_noenc_talonnum );
+
+		talon_climber_wheels=new TalonSRX( climber_wheels_talonnum );
 
 #if DRIVEBASE
 		std::cout<<"andrew drivebase test- oohhh boy here we go"<<std::endl;
@@ -68,8 +69,10 @@ class Robot: public IterativeRobot{
 			talon_drivebase_right_noenc,
 			talon_intake_wheels,
 			talon_intake_clamp,
+			talon_intake_pivot,
 			talon_elevator_enc,
-			talon_elevator_noenc
+			talon_elevator_noenc,
+			talon_climber_wheels
 		);
 #endif
     }
