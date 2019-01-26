@@ -245,6 +245,7 @@
 /home/craptop/frc/robot_code_2019/src/include/intake.h
 /home/craptop/frc/robot_code_2019/src/include/intake_clamp.h
 /home/craptop/frc/robot_code_2019/src/include/intake_wheels.h
+/home/craptop/frc/robot_code_2019/src/include/servo.h
 /usr/arm-frc-linux-gnueabi/usr/include/alloca.h
 /usr/arm-frc-linux-gnueabi/usr/include/bits/byteswap-16.h
 /usr/arm-frc-linux-gnueabi/usr/include/bits/byteswap.h

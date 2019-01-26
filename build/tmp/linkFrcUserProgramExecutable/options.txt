@@ -6,6 +6,7 @@
 /home/craptop/frc/robot_code_2019/build/objs/frcUserProgram/frcUserProgramCpp/bv9fuvrrdowq0he9b5c6w6quy/intake.o
 /home/craptop/frc/robot_code_2019/build/objs/frcUserProgram/frcUserProgramCpp/uge2zr1n6f8eps49zkzyaw0r/drivebase.o
 /home/craptop/frc/robot_code_2019/build/objs/frcUserProgram/frcUserProgramCpp/8ljbyoe5cmno4aocrv8a5trb8/Robot.o
+/home/craptop/frc/robot_code_2019/build/objs/frcUserProgram/frcUserProgramCpp/6mj0e2owfxr8abzap64ahky1s/servo.o
 /home/craptop/frc/robot_code_2019/build/objs/frcUserProgram/frcUserProgramCpp/a5ay3dlox88gbyk3kvckhok5g/elevator.o
 /home/craptop/frc/robot_code_2019/build/objs/frcUserProgram/frcUserProgramCpp/2vrzn00iblzuoamxr4t88dwek/diagnostic.o
 /home/craptop/frc/robot_code_2019/build/objs/frcUserProgram/frcUserProgramCpp/bu4ntomet04j3jjloo6otdxbf/climber.o

@@ -13,13 +13,11 @@ public:
 	Intake_wheels(
 		// receive parameters
 		Joystick *joy1,
-		TalonSRX *talon_left,
-		TalonSRX *talon_right
+		TalonSRX *talon_wheels
 	):
 		// initialize member variables
 		joy1(joy1),
-		talon_left(talon_left),
-		talon_right(talon_right)
+		talon_wheels(talon_wheels)
 	{
 		// run on initialization
 		std::cout<<"initializing intake_wheels";
@@ -29,7 +27,7 @@ public:
 	void update();
 private:
 	Joystick *joy1;
-	TalonSRX *talon_left, *talon_right;
+	TalonSRX *talon_wheels;
 	bool inButton=false, outButton=false;
 	float suckSpeed=intake_wheels_speed;
 };

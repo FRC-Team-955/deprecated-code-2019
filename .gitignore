@@ -5,3 +5,4 @@ gogit
 build/exe/frcUserProgram/frcUserProgram
 build/tmp/compileFrcUserProgramExecutableFrcUserProgramCpp/options.txt
 build/tmp/compileFrcUserProgramExecutableFrcUserProgramCpp/output.txt
+*.vim

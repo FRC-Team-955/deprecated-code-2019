@@ -20,9 +20,8 @@ void Intake_wheels :: update () {
 	// if both buttons are pressed, "out" overwrites "in"
 	if(outButton) suckSpeed =-intake_wheels_speed;
 
-	// write value to motors
-	talon_left->Set(ControlMode::PercentOutput, suckSpeed );
-	talon_right->Set(ControlMode::PercentOutput,-suckSpeed );//this one is backwards
+	// write value to motor
+	talon_wheels->Set(ControlMode::PercentOutput, suckSpeed );
 
 	std::cout<<"\tsuckSpeed="<<suckSpeed<<std::endl;
 };

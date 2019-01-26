@@ -14,26 +14,32 @@ const int drivebase_right_enc_talonnum = 2;
 const int drivebase_right_noenc_talonnum = 3;
 const int intake_wheels_left_talonnum = 3;
 const int intake_wheels_right_talonnum = 2;
+const int intake_wheels_talonnum = 2;
 const int intake_clamp_talonnum = 3;
-const int elevator_enc_talonnum = 7;
+const int elevator_enc_talonnum  = 7;
 const int elevator_noenc_talonnum = 8;
 
 
 /*			Joystick #0
-	  A2           A3			  0,1=	out/in climber
-   _/III\4_______/III\5				2=	
-  /  A1             3  \			3=	
- /  (8)A0  6 H 7  2   1 \<-trg		4=	
- \       ^          0   /<-top		5=	
- /     <POV>    A5      \			6=	
-/        v     (9)A4     \			7=	
+	  A2           A3			  1,2=	out/in climber
+   _/III\5_______/III\6				3=	
+  /  A1             4  \			4=	
+ /  (9)A0  7 H 8  3   2 \<-trg		5=	
+ \       ^          1   /<-top		6=	
+ /     <POV>    A5      \			7=	
+/        v     (0)A4     \			8=	
 \      ____________      /		A1,A4=	drive
  \____/            \____/
 */
 // joystick 0 axis numbers
 const int drivebase_move_joynum = 1;
 const int drivebase_turn_joynum = 4;
-//joystick 0 button numbers
+// joystick 0 button numbers
+
+// joystick 0 axis/button numbers for diagnostic mode
+const int diagnostic_test_joynum = 1;
+const int diagnostic_tickup_joynum = 1;
+const int diagnostic_tickdown_joynum = 2;
 
 
 /*			Joystick #1
@@ -55,6 +61,7 @@ const int intake_wheels_in_joynum = 5;
 const int intake_wheels_out_joynum = 6;
 const int intake_clamp_close_joynum = 3;
 const int intake_clamp_open_joynum = 4;
+
 
 
 // wheel velocities
