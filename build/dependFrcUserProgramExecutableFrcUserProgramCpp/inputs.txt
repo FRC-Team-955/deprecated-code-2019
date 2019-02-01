@@ -238,13 +238,8 @@
 /home/robotics/2018-2019 FRC RobotCode/CompBot Code/build/tmp/expandedArchives/wpiutil-cpp-3.0.0-headers.zip_71db4973bf73247f06ec3fdb86e1126b/support/priority_mutex.h
 /home/robotics/2018-2019 FRC RobotCode/CompBot Code/src/include/PID.h
 /home/robotics/2018-2019 FRC RobotCode/CompBot Code/src/include/climber.h
-/home/robotics/2018-2019 FRC RobotCode/CompBot Code/src/include/constants.h
-/home/robotics/2018-2019 FRC RobotCode/CompBot Code/src/include/drivebase.h
 /home/robotics/2018-2019 FRC RobotCode/CompBot Code/src/include/elevator.h
-/home/robotics/2018-2019 FRC RobotCode/CompBot Code/src/include/intake.h
-/home/robotics/2018-2019 FRC RobotCode/CompBot Code/src/include/intake_clamp.h
 /home/robotics/2018-2019 FRC RobotCode/CompBot Code/src/include/intake_pivot.h
-/home/robotics/2018-2019 FRC RobotCode/CompBot Code/src/include/intake_wheels.h
 /usr/arm-frc-linux-gnueabi/usr/include/alloca.h
 /usr/arm-frc-linux-gnueabi/usr/include/bits/byteswap-16.h
 /usr/arm-frc-linux-gnueabi/usr/include/bits/byteswap.h

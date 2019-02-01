@@ -1,13 +1,9 @@
 -o
 "/home/robotics/2018-2019 FRC RobotCode/CompBot Code/build/exe/frcUserProgram/frcUserProgram"
 "/home/robotics/2018-2019 FRC RobotCode/CompBot Code/build/objs/frcUserProgram/frcUserProgramCpp/a5ay3dlox88gbyk3kvckhok5g/elevator.o"
-"/home/robotics/2018-2019 FRC RobotCode/CompBot Code/build/objs/frcUserProgram/frcUserProgramCpp/17jin424xi210is3i4s1w6m5a/intake_wheels.o"
 "/home/robotics/2018-2019 FRC RobotCode/CompBot Code/build/objs/frcUserProgram/frcUserProgramCpp/8ljbyoe5cmno4aocrv8a5trb8/Robot.o"
 "/home/robotics/2018-2019 FRC RobotCode/CompBot Code/build/objs/frcUserProgram/frcUserProgramCpp/ec8j8ggy16i720vnfsv6tmeov/intake_pivot.o"
-"/home/robotics/2018-2019 FRC RobotCode/CompBot Code/build/objs/frcUserProgram/frcUserProgramCpp/3b194itenanqdtcptqfqdp6xo/intake_clamp.o"
 "/home/robotics/2018-2019 FRC RobotCode/CompBot Code/build/objs/frcUserProgram/frcUserProgramCpp/2d21cywtcbhossg0xsnfy1k97/PID.o"
-"/home/robotics/2018-2019 FRC RobotCode/CompBot Code/build/objs/frcUserProgram/frcUserProgramCpp/uge2zr1n6f8eps49zkzyaw0r/drivebase.o"
-"/home/robotics/2018-2019 FRC RobotCode/CompBot Code/build/objs/frcUserProgram/frcUserProgramCpp/bv9fuvrrdowq0he9b5c6w6quy/intake.o"
 "/home/robotics/2018-2019 FRC RobotCode/CompBot Code/build/objs/frcUserProgram/frcUserProgramCpp/bu4ntomet04j3jjloo6otdxbf/climber.o"
 "/home/robotics/2018-2019 FRC RobotCode/CompBot Code/build/tmp/expandedArchives/wpilibc-2018.1.1-linuxathena.zip_eb08a6945e8c7e46bd3eb770a71c8773/linux/athena/shared/libwpilibc.so"
 "/home/robotics/2018-2019 FRC RobotCode/CompBot Code/build/tmp/expandedArchives/hal-2018.1.1-linuxathena.zip_8fed6e4251b83e01f2c2f77e13eb29db/linux/athena/shared/libwpiHal.so"
