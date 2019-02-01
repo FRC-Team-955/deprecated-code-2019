@@ -1,5 +1,4 @@
 **/.*.sw?
-gogit
 **/*.[oa]
 .gradle
 build/exe/frcUserProgram/frcUserProgram
