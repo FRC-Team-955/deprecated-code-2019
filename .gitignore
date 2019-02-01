@@ -1,2 +1,10 @@
 **/.*.sw?
-gogit
+**/*.[oa]
+.gradle
+build/exe/frcUserProgram/frcUserProgram
+build/tmp/compileFrcUserProgramExecutableFrcUserProgramCpp/options.txt
+build/tmp/compileFrcUserProgramExecutableFrcUserProgramCpp/output.txt
+*.vim
+build/tmp/linkFrcUserProgramExecutable/output.txt
+build/tmp/linkFrcUserProgramExecutable/options.txt
+build/dependFrcUserProgramExecutableFrcUserProgramCpp/inputs.txt

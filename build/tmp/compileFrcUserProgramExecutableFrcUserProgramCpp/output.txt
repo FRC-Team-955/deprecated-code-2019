@@ -1,6 +1,22 @@
 See file:///home/craptop/frc/robot_code_2019/build/tmp/compileFrcUserProgramExecutableFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramExecutableFrcUserProgramCpp.
+compiling intake_pivot.cpp successful.
+
+compiling climber.cpp successful.
+
+compiling elevator.cpp successful.
+
+compiling intake_clamp.cpp successful.
+
 compiling drivebase.cpp successful.
 
 compiling Robot.cpp successful.
+
+compiling PID.cpp successful.
+
+compiling intake.cpp successful.
+
+compiling intake_wheels.cpp successful.
+
+compiling diagnostic.cpp successful.
 
 Finished compileFrcUserProgramExecutableFrcUserProgramCpp, see full log file:///home/craptop/frc/robot_code_2019/build/tmp/compileFrcUserProgramExecutableFrcUserProgramCpp/output.txt.
