@@ -47,7 +47,7 @@ const int diagnostic_tickdown_joynum = 2;
 /*			Joystick #1
 	  A2           A3			  1,2=	up/down tick elevator
    _/III\5_______/III\6				3=	intake lvl toggle
-  /  A1             4  \			4=	hatch sequence
+  /  A1             4  \			4=	\\hatch sequence
  /  (9)A0  7 H 8  3   2 \<-trg	  5,6=	intake out/in
  \       ^          1   /<-top		7=	
  /     <POV>    A5      \		   A1=	

@@ -97,6 +97,7 @@ class Robot: public IterativeRobot{
     }
 
     void TestInit(){
+		std::cout<<"aiight we gon' diagnose dis nau"<<std::endl;
     }
     void TestPeriodic(){
 #if DIAGNOSTIC
